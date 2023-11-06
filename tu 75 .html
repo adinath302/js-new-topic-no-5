@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript practise problems</title>
+    <style>
+        body {
+            background: black;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        // problem no 1
+
+        // function call(text) {
+        //     setTimeout(() => {
+        //         console.log(text);
+        //     },2000);
+        // }
+        // call("hello")
+        // call("world")
+
+        // problem no 1
+        // const a = async (text) => {
+        //     return new Promise((resolve, reject) => {
+        //         setTimeout(() => {
+        //             resolve(text);
+        //         }, 2000);
+        //     })
+        // }
+        // (
+        //     async () => {
+        //         let text = await a("hello")
+        //         console.log(text);
+        //         text = await a("world")
+        //         console.log(text);
+        //     }
+        // )()
+
+        // problem set no 2
+
+        // function sum(a, b, c) {
+        //     return a + b + c
+        // }
+
+        // let x = [1, 3, 2]
+        // console.log(sum(...x));
+
+        //  problem no 3
+        // const a = async (text, n = 2) => {
+        //     return new Promise((resolve, reject) => {
+        //         setTimeout(() => {
+        //             resolve(text);
+        //         }, 1000 * n);
+        //     })
+        // }
+
+        // (
+        //     async () => {
+        //         let text = await a("i am resolving agter 1 sec ", 1)
+        //         console.log(text);
+        //         text = await a("i am resolving agter 4 sec ", 4);
+        //         console.log(text);
+        //     }
+        // )()
+
+        // problem no 4
+        function simplein(principal, rate, time) {
+            return principal * time * rate / 100;k
+        }
+        console.log(`the simple interst of is : `+ simplein(20, 3, 1));
+
+    </script>
+
+</body>
+
+</html>
